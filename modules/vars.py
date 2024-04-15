@@ -1,5 +1,5 @@
-api_id = 29940662
-api_hash = "b9ccc26a417ce3a998d321086a2edbb6"
-bot_token = "6513648341:AAEm5tbyQPWxU55QzJl2bVOJX6JvA-dy1yU"
-AUTH = 1871785273
+api_id = 14550366
+api_hash = "jkhaf3AFarA6a4ra4f"
+bot_token = "61254145233:jkarjalkfanrlnafVOJX6JvA-dy1yU"
+AUTH = 15221453354
 #Bot Username = "bhuriyabhaig"
