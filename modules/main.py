@@ -142,7 +142,7 @@ async def account_login(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://d26g5bnklkwsh4.cloudfront.net/" + id + "/master.m3u8"
+             url =  "https://d3j3rbatxr01e4.cloudfront.net/" + id + "/dash/masterpl.mpd"
               
             elif 'classplusapp' in url:
                   headers = {
