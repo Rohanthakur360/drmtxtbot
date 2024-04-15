@@ -31,7 +31,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("** कैसे हो😁😎 \n\n  𝔾ɪᴠᴇ /bhuriya वीडियो डाउनलोड करना चाहते हो तो का नाम लो  🤓.⚡️\n**")
+    editable = await m.reply_text("** कैसे हो😁😎 \n\n  𝔾ɪᴠᴇ /stubborn वीडियो डाउनलोड करना चाहते हो तो का नाम लो  🤓.⚡️\n**")
 
 
 @bot.on_message(filters.command("rukja"))
