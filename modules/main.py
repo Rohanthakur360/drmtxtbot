@@ -34,7 +34,7 @@ async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("** कैसे हो😁😎 \n\n  𝔾ɪᴠᴇ /stubborn वीडियो डाउनलोड करना चाहते हो तो का नाम लो  🤓.⚡️\n**")
 
 
-@bot.on_message(filters.command("rukja"))
+@bot.on_message(filters.command("stop"))
 async def restart_handler(_, m):
     await m.reply_text("**रुक गया  😡**", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
