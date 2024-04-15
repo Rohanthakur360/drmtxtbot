@@ -41,7 +41,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["bhuriya"]))
+@bot.on_message(filters.command(["stubborn"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('**और कैसे हो😁.😎 \n\n अब तेरी TXT भेज दे ओर इंतजार कर ⌚️ ⚡️**')
     input: Message = await bot.listen(editable.chat.id)
@@ -100,7 +100,7 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("**Enter A Captio to add Otherwise send**   **`hacker`**")
+    await editable.edit("**Enter A Captio to add Otherwise send**   **`stubborn`**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
