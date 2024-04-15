@@ -140,7 +140,7 @@ async def account_login(bot: Client, m: Message):
                         text = await resp.text()
                         url = re.search(r"(https://.*?playlist.m3u8.*?)\"", text).group(1)
 
-            elif '/master.mpd' in url:
+            elif '/dash/masterpl.mpd' in url:
              id =  url.split("/")[-2]
              url =  "https://d3j3rbatxr01e4.cloudfront.net/" + id + "/dash/masterpl.mpd"
               
